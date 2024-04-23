@@ -1,0 +1,1128 @@
+03/20/23 18:53:38 - Process(104.1) User(mqm) Program(crtmqm)
+                    Host(a4dba546534d) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2023-03-20T18:53:38.598Z)
+                    CommentInsert1(Linux 5.10.167-147.601.amzn2.x86_64 (MQ Linux (x86-64 platform) 64-bit))
+                    CommentInsert2(/opt/mqm (Installation1))
+                    CommentInsert3(9.2.4.0 (p924-L211105.DE))
+                   
+AMQ6287I: IBM MQ V9.2.4.0 (p924-L211105.DE).
+
+EXPLANATION:
+IBM MQ system information: 
+Host Info         :- Linux 5.10.167-147.601.amzn2.x86_64 (MQ Linux (x86-64
+platform) 64-bit) 
+Installation      :- /opt/mqm (Installation1) 
+Version           :- 9.2.4.0 (p924-L211105.DE)
+ACTION:
+None.
+----- amqxeida.c : 6685 -------------------------------------------------------
+03/20/23 18:53:38 - Process(104.1) User(mqm) Program(crtmqm)
+                    Host(a4dba546534d) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2023-03-20T18:53:38.598Z)
+                    CommentInsert3(ADLPH_PROD_QM)
+                   
+AMQ8001I: IBM MQ queue manager 'ADLPH_PROD_QM' created.
+
+EXPLANATION:
+IBM MQ queue manager 'ADLPH_PROD_QM' created.
+ACTION:
+None.
+----- amqzsly0.c : 2618 -------------------------------------------------------
+03/20/23 18:53:42 - Process(268.1) User(mqm) Program(strmqm)
+                    Host(a4dba546534d) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2023-03-20T18:53:42.478Z)
+                    CommentInsert1(strmqm)
+                    CommentInsert2(strmqm -x ADLPH_PROD_QM)
+                   
+AMQ6206I: Command strmqm was issued.
+
+EXPLANATION:
+Control command 'strmqm -x ADLPH_PROD_QM' was issued.
+ACTION:
+None.
+----- amqxprma.c : 2739 -------------------------------------------------------
+04/02/23 22:55:11 - Process(135.1) User(mqm) Program(strmqm)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2023-04-02T22:55:11.184Z)
+                    CommentInsert1(strmqm)
+                    CommentInsert2(strmqm -x ADLPH_PROD_QM)
+                   
+AMQ6206I: Command strmqm was issued.
+
+EXPLANATION:
+Control command 'strmqm -x ADLPH_PROD_QM' was issued.
+ACTION:
+None.
+----- amqxprma.c : 2739 -------------------------------------------------------
+09/01/23 15:45:43 - Process(123.1) User(mqm) Program(strmqm)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2023-09-01T15:45:43.558Z)
+                    CommentInsert1(strmqm)
+                    CommentInsert2(strmqm -x ADLPH_PROD_QM)
+                   
+AMQ6206I: Command strmqm was issued.
+
+EXPLANATION:
+Control command 'strmqm -x ADLPH_PROD_QM' was issued.
+ACTION:
+None.
+----- amqxprma.c : 2739 -------------------------------------------------------
+09/05/23 15:13:35 - Process(120.1) User(mqm) Program(strmqm)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2023-09-05T15:13:35.127Z)
+                    CommentInsert1(strmqm)
+                    CommentInsert2(strmqm -x ADLPH_PROD_QM)
+                   
+AMQ6206I: Command strmqm was issued.
+
+EXPLANATION:
+Control command 'strmqm -x ADLPH_PROD_QM' was issued.
+ACTION:
+None.
+----- amqxprma.c : 2739 -------------------------------------------------------
+09/18/23 11:41:16 - Process(3090.1) User(mqm) Program(endmqm)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2023-09-18T11:41:16.653Z)
+                    CommentInsert1(endmqm)
+                    CommentInsert2(endmqm ADLPH_PROD_QM)
+                   
+AMQ6206I: Command endmqm was issued.
+
+EXPLANATION:
+Control command 'endmqm ADLPH_PROD_QM' was issued.
+ACTION:
+None.
+----- amqxprma.c : 2739 -------------------------------------------------------
+09/18/23 11:41:27 - Process(3100.1) User(mqm) Program(strmqm)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2023-09-18T11:41:27.909Z)
+                    CommentInsert1(strmqm)
+                    CommentInsert2(strmqm ADLPH_PROD_QM)
+                   
+AMQ6206I: Command strmqm was issued.
+
+EXPLANATION:
+Control command 'strmqm ADLPH_PROD_QM' was issued.
+ACTION:
+None.
+----- amqxprma.c : 2739 -------------------------------------------------------
+09/18/23 11:49:10 - Process(3420.1) User(mqm) Program(endmqm)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2023-09-18T11:49:10.004Z)
+                    CommentInsert1(endmqm)
+                    CommentInsert2(endmqm ADLPH_PROD_QM)
+                   
+AMQ6206I: Command endmqm was issued.
+
+EXPLANATION:
+Control command 'endmqm ADLPH_PROD_QM' was issued.
+ACTION:
+None.
+----- amqxprma.c : 2739 -------------------------------------------------------
+09/18/23 11:49:59 - Process(3440.1) User(mqm) Program(strmqm)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2023-09-18T11:49:59.092Z)
+                    CommentInsert1(strmqm)
+                    CommentInsert2(strmqm ADLPH_PROD_QM)
+                   
+AMQ6206I: Command strmqm was issued.
+
+EXPLANATION:
+Control command 'strmqm ADLPH_PROD_QM' was issued.
+ACTION:
+None.
+----- amqxprma.c : 2739 -------------------------------------------------------
+09/18/23 12:00:08 - Process(3726.1) User(mqm) Program(endmqm)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2023-09-18T12:00:08.849Z)
+                    CommentInsert1(endmqm)
+                    CommentInsert2(endmqm ADLPH_PROD_QM)
+                   
+AMQ6206I: Command endmqm was issued.
+
+EXPLANATION:
+Control command 'endmqm ADLPH_PROD_QM' was issued.
+ACTION:
+None.
+----- amqxprma.c : 2739 -------------------------------------------------------
+09/18/23 12:00:20 - Process(3736.1) User(mqm) Program(strmqm)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2023-09-18T12:00:20.551Z)
+                    CommentInsert1(strmqm)
+                    CommentInsert2(strmqm ADLPH_PROD_QM)
+                   
+AMQ6206I: Command strmqm was issued.
+
+EXPLANATION:
+Control command 'strmqm ADLPH_PROD_QM' was issued.
+ACTION:
+None.
+----- amqxprma.c : 2739 -------------------------------------------------------
+01/06/24 10:13:34 - Process(3740.1) User(mqm) Program(amqzxma0)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-06T10:13:34.616Z)
+                    ArithInsert1(276849014)
+                    CommentInsert2(/mnt/mqm/data/errors/AMQ3740.0.FDC)
+                    CommentInsert3(ZX000065)
+                   
+AMQ6125E: An internal IBM MQ error has occurred.
+
+EXPLANATION:
+An internal error has occurred with identifier 10806176. An FFST containing
+diagnostic data has been written to '/mnt/mqm/data/errors/AMQ3740.0.FDC' with
+probe 'ZX000065'.
+ACTION:
+Use the standard facilities supplied with your system to record the problem
+identifier and to save any generated output files. Use either the MQ Support
+site: https://www.ibm.com/support/home/, or IBM Support Assistant (ISA):
+https://www.ibm.com/support/home/product/C100515X13178X21/other_software/ibm_support_assistant,
+to see whether a solution is already available.  If you are unable to find a
+match, contact your IBM support center.  Do not discard these files until the
+problem has been resolved.
+----- amqxfdcx.c : 1071 -------------------------------------------------------
+01/06/24 10:13:55 - Process(3740.1) User(mqm) Program(amqzxma0)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-06T10:13:55.681Z)
+                    ArithInsert1(3740)
+                    CommentInsert1(ADLPH_PROD_QM)
+                  01/08/24 18:28:55 - Process(135.1) User(mqm) Program(strmqm)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-08T18:28:55.748Z)
+                    CommentInsert1(strmqm)
+                    CommentInsert2(strmqm -x ADLPH_PROD_QM)
+                   
+AMQ6206I: Command strmqm was issued.
+
+EXPLANATION:
+Control command 'strmqm -x ADLPH_PROD_QM' was issued.
+ACTION:
+None.
+----- amqxprma.c : 2739 -------------------------------------------------------
+01/17/24 13:28:24 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:28:24.862Z)
+                    ArithInsert1(2)
+                    CommentInsert1(SIGINT)
+                    CommentInsert2(Signal sent by pid 0)
+                   
+AMQ6209W: An unexpected asynchronous signal (2 : SIGINT) has been received and
+ignored.
+
+EXPLANATION:
+Process 0 received an unexpected asynchronous signal and ignored it. This has
+not caused an error but the source of the signal should be determined as it is
+likely that the signal has been generated externally to IBM MQ.
+ACTION:
+Determine the source of the signal and prevent it from re-occurring.
+----- amqxfdcx.c : 1071 -------------------------------------------------------
+01/17/24 13:28:24 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:28:24.863Z)
+                    ArithInsert1(11309)
+                    CommentInsert2(/mnt/mqm/data/errors/AMQ11309.0.FDC)
+                    CommentInsert3(XC338001)
+                   
+AMQ6183W: An internal IBM MQ error has occurred.
+
+EXPLANATION:
+An error has been detected, and the IBM MQ error recording routine has been
+called. The failing process is process 11309. An FFST containing diagnostic
+data has been written to '/mnt/mqm/data/errors/AMQ11309.0.FDC' with probe
+'XC338001'.
+ACTION:
+Use the standard facilities supplied with your system to record the problem
+identifier and to save any generated output files. Use either the MQ Support
+site: https://www.ibm.com/support/home/, or IBM Support Assistant (ISA):
+https://www.ibm.com/support/home/product/C100515X13178X21/other_software/ibm_support_assistant,
+to see whether a solution is already available.  If you are unable to find a
+match, contact your IBM support center.  Do not discard these files until the
+problem has been resolved.
+----- amqxfdcx.c : 1122 -------------------------------------------------------
+01/17/24 13:28:25 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:28:25.775Z)
+                    ArithInsert1(2)
+                    CommentInsert1(SIGINT)
+                    CommentInsert2(Signal sent by pid 0)
+                   
+AMQ6209W: An unexpected asynchronous signal (2 : SIGINT) has been received and
+ignored.
+
+EXPLANATION:
+Process 0 received an unexpected asynchronous signal and ignored it. This has
+not caused an error but the source of the signal should be determined as it is
+likely that the signal has been generated externally to IBM MQ.
+ACTION:
+Determine the source of the signal and prevent it from re-occurring.
+----- amqxfdcx.c : 1071 -------------------------------------------------------
+01/17/24 13:28:25 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:28:25.775Z)
+                    ArithInsert1(11309)
+                    CommentInsert2(/mnt/mqm/data/errors/AMQ11309.0.FDC)
+                    CommentInsert3(XC338001)
+                   
+AMQ6183W: An internal IBM MQ error has occurred.
+
+EXPLANATION:
+An error has been detected, and the IBM MQ error recording routine has been
+called. The failing process is process 11309. An FFST containing diagnostic
+data has been written to '/mnt/mqm/data/errors/AMQ11309.0.FDC' with probe
+'XC338001'.
+ACTION:
+Use the standard facilities supplied with your system to record the problem
+identifier and to save any generated output files. Use either the MQ Support
+site: https://www.ibm.com/support/home/, or IBM Support Assistant (ISA):
+https://www.ibm.com/support/home/product/C100515X13178X21/other_software/ibm_support_assistant,
+to see whether a solution is already available.  If you are unable to find a
+match, contact your IBM support center.  Do not discard these files until the
+problem has been resolved.
+----- amqxfdcx.c : 1122 -------------------------------------------------------
+01/17/24 13:28:27 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:28:27.138Z)
+                    ArithInsert1(2)
+                    CommentInsert1(SIGINT)
+                    CommentInsert2(Signal sent by pid 0)
+                   
+AMQ6209W: An unexpected asynchronous signal (2 : SIGINT) has been received and
+ignored.
+
+EXPLANATION:
+Process 0 received an unexpected asynchronous signal and ignored it. This has
+not caused an error but the source of the signal should be determined as it is
+likely that the signal has been generated externally to IBM MQ.
+ACTION:
+Determine the source of the signal and prevent it from re-occurring.
+----- amqxfdcx.c : 1071 -------------------------------------------------------
+01/17/24 13:28:27 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:28:27.138Z)
+                    ArithInsert1(11309)
+                    CommentInsert2(/mnt/mqm/data/errors/AMQ11309.0.FDC)
+                    CommentInsert3(XC338001)
+                   
+AMQ6183W: An internal IBM MQ error has occurred.
+
+EXPLANATION:
+An error has been detected, and the IBM MQ error recording routine has been
+called. The failing process is process 11309. An FFST containing diagnostic
+data has been written to '/mnt/mqm/data/errors/AMQ11309.0.FDC' with probe
+'XC338001'.
+ACTION:
+Use the standard facilities supplied with your system to record the problem
+identifier and to save any generated output files. Use either the MQ Support
+site: https://www.ibm.com/support/home/, or IBM Support Assistant (ISA):
+https://www.ibm.com/support/home/product/C100515X13178X21/other_software/ibm_support_assistant,
+to see whether a solution is already available.  If you are unable to find a
+match, contact your IBM support center.  Do not discard these files until the
+problem has been resolved.
+----- amqxfdcx.c : 1122 -------------------------------------------------------
+01/17/24 13:28:27 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:28:27.322Z)
+                    ArithInsert1(2)
+                    CommentInsert1(SIGINT)
+                    CommentInsert2(Signal sent by pid 0)
+                   
+AMQ6209W: An unexpected asynchronous signal (2 : SIGINT) has been received and
+ignored.
+
+EXPLANATION:
+Process 0 received an unexpected asynchronous signal and ignored it. This has
+not caused an error but the source of the signal should be determined as it is
+likely that the signal has been generated externally to IBM MQ.
+ACTION:
+Determine the source of the signal and prevent it from re-occurring.
+----- amqxfdcx.c : 1071 -------------------------------------------------------
+01/17/24 13:28:27 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:28:27.323Z)
+                    ArithInsert1(11309)
+                    CommentInsert2(/mnt/mqm/data/errors/AMQ11309.0.FDC)
+                    CommentInsert3(XC338001)
+                   
+AMQ6183W: An internal IBM MQ error has occurred.
+
+EXPLANATION:
+An error has been detected, and the IBM MQ error recording routine has been
+called. The failing process is process 11309. An FFST containing diagnostic
+data has been written to '/mnt/mqm/data/errors/AMQ11309.0.FDC' with probe
+'XC338001'.
+ACTION:
+Use the standard facilities supplied with your system to record the problem
+identifier and to save any generated output files. Use either the MQ Support
+site: https://www.ibm.com/support/home/, or IBM Support Assistant (ISA):
+https://www.ibm.com/support/home/product/C100515X13178X21/other_software/ibm_support_assistant,
+to see whether a solution is already available.  If you are unable to find a
+match, contact your IBM support center.  Do not discard these files until the
+problem has been resolved.
+----- amqxfdcx.c : 1122 -------------------------------------------------------
+01/17/24 13:28:27 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:28:27.495Z)
+                    ArithInsert1(2)
+                    CommentInsert1(SIGINT)
+                    CommentInsert2(Signal sent by pid 0)
+                   
+AMQ6209W: An unexpected asynchronous signal (2 : SIGINT) has been received and
+ignored.
+
+EXPLANATION:
+Process 0 received an unexpected asynchronous signal and ignored it. This has
+not caused an error but the source of the signal should be determined as it is
+likely that the signal has been generated externally to IBM MQ.
+ACTION:
+Determine the source of the signal and prevent it from re-occurring.
+----- amqxfdcx.c : 1071 -------------------------------------------------------
+01/17/24 13:28:27 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:28:27.495Z)
+                    ArithInsert1(11309)
+                    CommentInsert2(/mnt/mqm/data/errors/AMQ11309.0.FDC)
+                    CommentInsert3(XC338001)
+                   
+AMQ6183W: An internal IBM MQ error has occurred.
+
+EXPLANATION:
+An error has been detected, and the IBM MQ error recording routine has been
+called. The failing process is process 11309. An FFST containing diagnostic
+data has been written to '/mnt/mqm/data/errors/AMQ11309.0.FDC' with probe
+'XC338001'.
+ACTION:
+Use the standard facilities supplied with your system to record the problem
+identifier and to save any generated output files. Use either the MQ Support
+site: https://www.ibm.com/support/home/, or IBM Support Assistant (ISA):
+https://www.ibm.com/support/home/product/C100515X13178X21/other_software/ibm_support_assistant,
+to see whether a solution is already available.  If you are unable to find a
+match, contact your IBM support center.  Do not discard these files until the
+problem has been resolved.
+----- amqxfdcx.c : 1122 -------------------------------------------------------
+01/17/24 13:28:27 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:28:27.924Z)
+                    ArithInsert1(2)
+                    CommentInsert1(SIGINT)
+                    CommentInsert2(Signal sent by pid 0)
+                   
+AMQ6209W: An unexpected asynchronous signal (2 : SIGINT) has been received and
+ignored.
+
+EXPLANATION:
+Process 0 received an unexpected asynchronous signal and ignored it. This has
+not caused an error but the source of the signal should be determined as it is
+likely that the signal has been generated externally to IBM MQ.
+ACTION:
+Determine the source of the signal and prevent it from re-occurring.
+----- amqxfdcx.c : 1071 -------------------------------------------------------
+01/17/24 13:28:27 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:28:27.924Z)
+                    ArithInsert1(11309)
+                    CommentInsert2(/mnt/mqm/data/errors/AMQ11309.0.FDC)
+                    CommentInsert3(XC338001)
+                   
+AMQ6183W: An internal IBM MQ error has occurred.
+
+EXPLANATION:
+An error has been detected, and the IBM MQ error recording routine has been
+called. The failing process is process 11309. An FFST containing diagnostic
+data has been written to '/mnt/mqm/data/errors/AMQ11309.0.FDC' with probe
+'XC338001'.
+ACTION:
+Use the standard facilities supplied with your system to record the problem
+identifier and to save any generated output files. Use either the MQ Support
+site: https://www.ibm.com/support/home/, or IBM Support Assistant (ISA):
+https://www.ibm.com/support/home/product/C100515X13178X21/other_software/ibm_support_assistant,
+to see whether a solution is already available.  If you are unable to find a
+match, contact your IBM support center.  Do not discard these files until the
+problem has been resolved.
+----- amqxfdcx.c : 1122 -------------------------------------------------------
+01/17/24 13:29:13 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:29:13.446Z)
+                    ArithInsert1(2)
+                    CommentInsert1(SIGINT)
+                    CommentInsert2(Signal sent by pid 0)
+                   
+AMQ6209W: An unexpected asynchronous signal (2 : SIGINT) has been received and
+ignored.
+
+EXPLANATION:
+Process 0 received an unexpected asynchronous signal and ignored it. This has
+not caused an error but the source of the signal should be determined as it is
+likely that the signal has been generated externally to IBM MQ.
+ACTION:
+Determine the source of the signal and prevent it from re-occurring.
+----- amqxfdcx.c : 1071 -------------------------------------------------------
+01/17/24 13:29:13 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:29:13.447Z)
+                    ArithInsert1(11309)
+                    CommentInsert2(/mnt/mqm/data/errors/AMQ11309.0.FDC)
+                    CommentInsert3(XC338001)
+                   
+AMQ6183W: An internal IBM MQ error has occurred.
+
+EXPLANATION:
+An error has been detected, and the IBM MQ error recording routine has been
+called. The failing process is process 11309. An FFST containing diagnostic
+data has been written to '/mnt/mqm/data/errors/AMQ11309.0.FDC' with probe
+'XC338001'.
+ACTION:
+Use the standard facilities supplied with your system to record the problem
+identifier and to save any generated output files. Use either the MQ Support
+site: https://www.ibm.com/support/home/, or IBM Support Assistant (ISA):
+https://www.ibm.com/support/home/product/C100515X13178X21/other_software/ibm_support_assistant,
+to see whether a solution is already available.  If you are unable to find a
+match, contact your IBM support center.  Do not discard these files until the
+problem has been resolved.
+----- amqxfdcx.c : 1122 -------------------------------------------------------
+01/17/24 13:29:13 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:29:13.685Z)
+                    ArithInsert1(2)
+                    CommentInsert1(SIGINT)
+                    CommentInsert2(Signal sent by pid 0)
+                   
+AMQ6209W: An unexpected asynchronous signal (2 : SIGINT) has been received and
+ignored.
+
+EXPLANATION:
+Process 0 received an unexpected asynchronous signal and ignored it. This has
+not caused an error but the source of the signal should be determined as it is
+likely that the signal has been generated externally to IBM MQ.
+ACTION:
+Determine the source of the signal and prevent it from re-occurring.
+----- amqxfdcx.c : 1071 -------------------------------------------------------
+01/17/24 13:29:13 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:29:13.685Z)
+                    ArithInsert1(11309)
+                    CommentInsert2(/mnt/mqm/data/errors/AMQ11309.0.FDC)
+                    CommentInsert3(XC338001)
+                   
+AMQ6183W: An internal IBM MQ error has occurred.
+
+EXPLANATION:
+An error has been detected, and the IBM MQ error recording routine has been
+called. The failing process is process 11309. An FFST containing diagnostic
+data has been written to '/mnt/mqm/data/errors/AMQ11309.0.FDC' with probe
+'XC338001'.
+ACTION:
+Use the standard facilities supplied with your system to record the problem
+identifier and to save any generated output files. Use either the MQ Support
+site: https://www.ibm.com/support/home/, or IBM Support Assistant (ISA):
+https://www.ibm.com/support/home/product/C100515X13178X21/other_software/ibm_support_assistant,
+to see whether a solution is already available.  If you are unable to find a
+match, contact your IBM support center.  Do not discard these files until the
+problem has been resolved.
+----- amqxfdcx.c : 1122 -------------------------------------------------------
+01/17/24 13:29:13 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:29:13.843Z)
+                    ArithInsert1(2)
+                    CommentInsert1(SIGINT)
+                    CommentInsert2(Signal sent by pid 0)
+                   
+AMQ6209W: An unexpected asynchronous signal (2 : SIGINT) has been received and
+ignored.
+
+EXPLANATION:
+Process 0 received an unexpected asynchronous signal and ignored it. This has
+not caused an error but the source of the signal should be determined as it is
+likely that the signal has been generated externally to IBM MQ.
+ACTION:
+Determine the source of the signal and prevent it from re-occurring.
+----- amqxfdcx.c : 1071 -------------------------------------------------------
+01/17/24 13:29:13 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:29:13.843Z)
+                    ArithInsert1(11309)
+                    CommentInsert2(/mnt/mqm/data/errors/AMQ11309.0.FDC)
+                    CommentInsert3(XC338001)
+                   
+AMQ6183W: An internal IBM MQ error has occurred.
+
+EXPLANATION:
+An error has been detected, and the IBM MQ error recording routine has been
+called. The failing process is process 11309. An FFST containing diagnostic
+data has been written to '/mnt/mqm/data/errors/AMQ11309.0.FDC' with probe
+'XC338001'.
+ACTION:
+Use the standard facilities supplied with your system to record the problem
+identifier and to save any generated output files. Use either the MQ Support
+site: https://www.ibm.com/support/home/, or IBM Support Assistant (ISA):
+https://www.ibm.com/support/home/product/C100515X13178X21/other_software/ibm_support_assistant,
+to see whether a solution is already available.  If you are unable to find a
+match, contact your IBM support center.  Do not discard these files until the
+problem has been resolved.
+----- amqxfdcx.c : 1122 -------------------------------------------------------
+01/17/24 13:29:14 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:29:14.025Z)
+                    ArithInsert1(2)
+                    CommentInsert1(SIGINT)
+                    CommentInsert2(Signal sent by pid 0)
+                   
+AMQ6209W: An unexpected asynchronous signal (2 : SIGINT) has been received and
+ignored.
+
+EXPLANATION:
+Process 0 received an unexpected asynchronous signal and ignored it. This has
+not caused an error but the source of the signal should be determined as it is
+likely that the signal has been generated externally to IBM MQ.
+ACTION:
+Determine the source of the signal and prevent it from re-occurring.
+----- amqxfdcx.c : 1071 -------------------------------------------------------
+01/17/24 13:29:14 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:29:14.025Z)
+                    ArithInsert1(11309)
+                    CommentInsert2(/mnt/mqm/data/errors/AMQ11309.0.FDC)
+                    CommentInsert3(XC338001)
+                   
+AMQ6183W: An internal IBM MQ error has occurred.
+
+EXPLANATION:
+An error has been detected, and the IBM MQ error recording routine has been
+called. The failing process is process 11309. An FFST containing diagnostic
+data has been written to '/mnt/mqm/data/errors/AMQ11309.0.FDC' with probe
+'XC338001'.
+ACTION:
+Use the standard facilities supplied with your system to record the problem
+identifier and to save any generated output files. Use either the MQ Support
+site: https://www.ibm.com/support/home/, or IBM Support Assistant (ISA):
+https://www.ibm.com/support/home/product/C100515X13178X21/other_software/ibm_support_assistant,
+to see whether a solution is already available.  If you are unable to find a
+match, contact your IBM support center.  Do not discard these files until the
+problem has been resolved.
+----- amqxfdcx.c : 1122 -------------------------------------------------------
+01/17/24 13:29:16 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:29:16.924Z)
+                    ArithInsert1(2)
+                    CommentInsert1(SIGINT)
+                    CommentInsert2(Signal sent by pid 0)
+                   
+AMQ6209W: An unexpected asynchronous signal (2 : SIGINT) has been received and
+ignored.
+
+EXPLANATION:
+Process 0 received an unexpected asynchronous signal and ignored it. This has
+not caused an error but the source of the signal should be determined as it is
+likely that the signal has been generated externally to IBM MQ.
+ACTION:
+Determine the source of the signal and prevent it from re-occurring.
+----- amqxfdcx.c : 1071 -------------------------------------------------------
+01/17/24 13:29:16 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:29:16.925Z)
+                    ArithInsert1(11309)
+                    CommentInsert2(/mnt/mqm/data/errors/AMQ11309.0.FDC)
+                    CommentInsert3(XC338001)
+                   
+AMQ6183W: An internal IBM MQ error has occurred.
+
+EXPLANATION:
+An error has been detected, and the IBM MQ error recording routine has been
+called. The failing process is process 11309. An FFST containing diagnostic
+data has been written to '/mnt/mqm/data/errors/AMQ11309.0.FDC' with probe
+'XC338001'.
+ACTION:
+Use the standard facilities supplied with your system to record the problem
+identifier and to save any generated output files. Use either the MQ Support
+site: https://www.ibm.com/support/home/, or IBM Support Assistant (ISA):
+https://www.ibm.com/support/home/product/C100515X13178X21/other_software/ibm_support_assistant,
+to see whether a solution is already available.  If you are unable to find a
+match, contact your IBM support center.  Do not discard these files until the
+problem has been resolved.
+----- amqxfdcx.c : 1122 -------------------------------------------------------
+01/17/24 13:29:22 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:29:22.306Z)
+                    ArithInsert1(2)
+                    CommentInsert1(SIGINT)
+                    CommentInsert2(Signal sent by pid 0)
+                   
+AMQ6209W: An unexpected asynchronous signal (2 : SIGINT) has been received and
+ignored.
+
+EXPLANATION:
+Process 0 received an unexpected asynchronous signal and ignored it. This has
+not caused an error but the source of the signal should be determined as it is
+likely that the signal has been generated externally to IBM MQ.
+ACTION:
+Determine the source of the signal and prevent it from re-occurring.
+----- amqxfdcx.c : 1071 -------------------------------------------------------
+01/17/24 13:29:22 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:29:22.307Z)
+                    ArithInsert1(11309)
+                    CommentInsert2(/mnt/mqm/data/errors/AMQ11309.0.FDC)
+                    CommentInsert3(XC338001)
+                   
+AMQ6183W: An internal IBM MQ error has occurred.
+
+EXPLANATION:
+An error has been detected, and the IBM MQ error recording routine has been
+called. The failing process is process 11309. An FFST containing diagnostic
+data has been written to '/mnt/mqm/data/errors/AMQ11309.0.FDC' with probe
+'XC338001'.
+ACTION:
+Use the standard facilities supplied with your system to record the problem
+identifier and to save any generated output files. Use either the MQ Support
+site: https://www.ibm.com/support/home/, or IBM Support Assistant (ISA):
+https://www.ibm.com/support/home/product/C100515X13178X21/other_software/ibm_support_assistant,
+to see whether a solution is already available.  If you are unable to find a
+match, contact your IBM support center.  Do not discard these files until the
+problem has been resolved.
+----- amqxfdcx.c : 1122 -------------------------------------------------------
+01/17/24 13:29:22 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:29:22.974Z)
+                    ArithInsert1(2)
+                    CommentInsert1(SIGINT)
+                    CommentInsert2(Signal sent by pid 0)
+                   
+AMQ6209W: An unexpected asynchronous signal (2 : SIGINT) has been received and
+ignored.
+
+EXPLANATION:
+Process 0 received an unexpected asynchronous signal and ignored it. This has
+not caused an error but the source of the signal should be determined as it is
+likely that the signal has been generated externally to IBM MQ.
+ACTION:
+Determine the source of the signal and prevent it from re-occurring.
+----- amqxfdcx.c : 1071 -------------------------------------------------------
+01/17/24 13:29:22 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:29:22.975Z)
+                    ArithInsert1(11309)
+                    CommentInsert2(/mnt/mqm/data/errors/AMQ11309.0.FDC)
+                    CommentInsert3(XC338001)
+                   
+AMQ6183W: An internal IBM MQ error has occurred.
+
+EXPLANATION:
+An error has been detected, and the IBM MQ error recording routine has been
+called. The failing process is process 11309. An FFST containing diagnostic
+data has been written to '/mnt/mqm/data/errors/AMQ11309.0.FDC' with probe
+'XC338001'.
+ACTION:
+Use the standard facilities supplied with your system to record the problem
+identifier and to save any generated output files. Use either the MQ Support
+site: https://www.ibm.com/support/home/, or IBM Support Assistant (ISA):
+https://www.ibm.com/support/home/product/C100515X13178X21/other_software/ibm_support_assistant,
+to see whether a solution is already available.  If you are unable to find a
+match, contact your IBM support center.  Do not discard these files until the
+problem has been resolved.
+----- amqxfdcx.c : 1122 -------------------------------------------------------
+01/17/24 13:29:23 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:29:23.200Z)
+                    ArithInsert1(2)
+                    CommentInsert1(SIGINT)
+                    CommentInsert2(Signal sent by pid 0)
+                   
+AMQ6209W: An unexpected asynchronous signal (2 : SIGINT) has been received and
+ignored.
+
+EXPLANATION:
+Process 0 received an unexpected asynchronous signal and ignored it. This has
+not caused an error but the source of the signal should be determined as it is
+likely that the signal has been generated externally to IBM MQ.
+ACTION:
+Determine the source of the signal and prevent it from re-occurring.
+----- amqxfdcx.c : 1071 -------------------------------------------------------
+01/17/24 13:29:23 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:29:23.200Z)
+                    ArithInsert1(11309)
+                    CommentInsert2(/mnt/mqm/data/errors/AMQ11309.0.FDC)
+                    CommentInsert3(XC338001)
+                   
+AMQ6183W: An internal IBM MQ error has occurred.
+
+EXPLANATION:
+An error has been detected, and the IBM MQ error recording routine has been
+called. The failing process is process 11309. An FFST containing diagnostic
+data has been written to '/mnt/mqm/data/errors/AMQ11309.0.FDC' with probe
+'XC338001'.
+ACTION:
+Use the standard facilities supplied with your system to record the problem
+identifier and to save any generated output files. Use either the MQ Support
+site: https://www.ibm.com/support/home/, or IBM Support Assistant (ISA):
+https://www.ibm.com/support/home/product/C100515X13178X21/other_software/ibm_support_assistant,
+to see whether a solution is already available.  If you are unable to find a
+match, contact your IBM support center.  Do not discard these files until the
+problem has been resolved.
+----- amqxfdcx.c : 1122 -------------------------------------------------------
+01/17/24 13:29:27 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:29:27.853Z)
+                    ArithInsert1(2)
+                    CommentInsert1(SIGINT)
+                    CommentInsert2(Signal sent by pid 0)
+                   
+AMQ6209W: An unexpected asynchronous signal (2 : SIGINT) has been received and
+ignored.
+
+EXPLANATION:
+Process 0 received an unexpected asynchronous signal and ignored it. This has
+not caused an error but the source of the signal should be determined as it is
+likely that the signal has been generated externally to IBM MQ.
+ACTION:
+Determine the source of the signal and prevent it from re-occurring.
+----- amqxfdcx.c : 1071 -------------------------------------------------------
+01/17/24 13:29:27 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:29:27.854Z)
+                    ArithInsert1(11309)
+                    CommentInsert2(/mnt/mqm/data/errors/AMQ11309.0.FDC)
+                    CommentInsert3(XC338001)
+                   
+AMQ6183W: An internal IBM MQ error has occurred.
+
+EXPLANATION:
+An error has been detected, and the IBM MQ error recording routine has been
+called. The failing process is process 11309. An FFST containing diagnostic
+data has been written to '/mnt/mqm/data/errors/AMQ11309.0.FDC' with probe
+'XC338001'.
+ACTION:
+Use the standard facilities supplied with your system to record the problem
+identifier and to save any generated output files. Use either the MQ Support
+site: https://www.ibm.com/support/home/, or IBM Support Assistant (ISA):
+https://www.ibm.com/support/home/product/C100515X13178X21/other_software/ibm_support_assistant,
+to see whether a solution is already available.  If you are unable to find a
+match, contact your IBM support center.  Do not discard these files until the
+problem has been resolved.
+----- amqxfdcx.c : 1122 -------------------------------------------------------
+01/17/24 13:29:28 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:29:28.055Z)
+                    ArithInsert1(2)
+                    CommentInsert1(SIGINT)
+                    CommentInsert2(Signal sent by pid 0)
+                   
+AMQ6209W: An unexpected asynchronous signal (2 : SIGINT) has been received and
+ignored.
+
+EXPLANATION:
+Process 0 received an unexpected asynchronous signal and ignored it. This has
+not caused an error but the source of the signal should be determined as it is
+likely that the signal has been generated externally to IBM MQ.
+ACTION:
+Determine the source of the signal and prevent it from re-occurring.
+----- amqxfdcx.c : 1071 -------------------------------------------------------
+01/17/24 13:29:28 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:29:28.056Z)
+                    ArithInsert1(11309)
+                    CommentInsert2(/mnt/mqm/data/errors/AMQ11309.0.FDC)
+                    CommentInsert3(XC338001)
+                   
+AMQ6183W: An internal IBM MQ error has occurred.
+
+EXPLANATION:
+An error has been detected, and the IBM MQ error recording routine has been
+called. The failing process is process 11309. An FFST containing diagnostic
+data has been written to '/mnt/mqm/data/errors/AMQ11309.0.FDC' with probe
+'XC338001'.
+ACTION:
+Use the standard facilities supplied with your system to record the problem
+identifier and to save any generated output files. Use either the MQ Support
+site: https://www.ibm.com/support/home/, or IBM Support Assistant (ISA):
+https://www.ibm.com/support/home/product/C100515X13178X21/other_software/ibm_support_assistant,
+to see whether a solution is already available.  If you are unable to find a
+match, contact your IBM support center.  Do not discard these files until the
+problem has been resolved.
+----- amqxfdcx.c : 1122 -------------------------------------------------------
+01/17/24 13:29:28 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:29:28.208Z)
+                    ArithInsert1(2)
+                    CommentInsert1(SIGINT)
+                    CommentInsert2(Signal sent by pid 0)
+                   
+AMQ6209W: An unexpected asynchronous signal (2 : SIGINT) has been received and
+ignored.
+
+EXPLANATION:
+Process 0 received an unexpected asynchronous signal and ignored it. This has
+not caused an error but the source of the signal should be determined as it is
+likely that the signal has been generated externally to IBM MQ.
+ACTION:
+Determine the source of the signal and prevent it from re-occurring.
+----- amqxfdcx.c : 1071 -------------------------------------------------------
+01/17/24 13:29:28 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:29:28.208Z)
+                    ArithInsert1(11309)
+                    CommentInsert2(/mnt/mqm/data/errors/AMQ11309.0.FDC)
+                    CommentInsert3(XC338001)
+                   
+AMQ6183W: An internal IBM MQ error has occurred.
+
+EXPLANATION:
+An error has been detected, and the IBM MQ error recording routine has been
+called. The failing process is process 11309. An FFST containing diagnostic
+data has been written to '/mnt/mqm/data/errors/AMQ11309.0.FDC' with probe
+'XC338001'.
+ACTION:
+Use the standard facilities supplied with your system to record the problem
+identifier and to save any generated output files. Use either the MQ Support
+site: https://www.ibm.com/support/home/, or IBM Support Assistant (ISA):
+https://www.ibm.com/support/home/product/C100515X13178X21/other_software/ibm_support_assistant,
+to see whether a solution is already available.  If you are unable to find a
+match, contact your IBM support center.  Do not discard these files until the
+problem has been resolved.
+----- amqxfdcx.c : 1122 -------------------------------------------------------
+01/17/24 13:29:28 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:29:28.379Z)
+                    ArithInsert1(2)
+                    CommentInsert1(SIGINT)
+                    CommentInsert2(Signal sent by pid 0)
+                   
+AMQ6209W: An unexpected asynchronous signal (2 : SIGINT) has been received and
+ignored.
+
+EXPLANATION:
+Process 0 received an unexpected asynchronous signal and ignored it. This has
+not caused an error but the source of the signal should be determined as it is
+likely that the signal has been generated externally to IBM MQ.
+ACTION:
+Determine the source of the signal and prevent it from re-occurring.
+----- amqxfdcx.c : 1071 -------------------------------------------------------
+01/17/24 13:29:28 - Process(11309.2) User(mqm) Program(runmqdlq)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-17T13:29:28.380Z)
+                    ArithInsert1(11309)
+                    CommentInsert2(/mnt/mqm/data/errors/AMQ11309.0.FDC)
+                    CommentInsert3(XC338001)
+                   
+AMQ6183W: An internal IBM MQ error has occurred.
+
+EXPLANATION:
+An error has been detected, and the IBM MQ error recording routine has been
+called. The failing process is process 11309. An FFST containing diagnostic
+data has been written to '/mnt/mqm/data/errors/AMQ11309.0.FDC' with probe
+'XC338001'.
+ACTION:
+Use the standard facilities supplied with your system to record the problem
+identifier and to save any generated output files. Use either the MQ Support
+site: https://www.ibm.com/support/home/, or IBM Support Assistant (ISA):
+https://www.ibm.com/support/home/product/C100515X13178X21/other_software/ibm_support_assistant,
+to see whether a solution is already available.  If you are unable to find a
+match, contact your IBM support center.  Do not discard these files until the
+problem has been resolved.
+----- amqxfdcx.c : 1122 -------------------------------------------------------
+01/19/24 08:54:41 - Process(135.1) User(mqm) Program(strmqm)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-19T08:54:41.731Z)
+                    CommentInsert1(strmqm)
+                    CommentInsert2(strmqm -x ADLPH_PROD_QM)
+                   
+AMQ6206I: Command strmqm was issued.
+
+EXPLANATION:
+Control command 'strmqm -x ADLPH_PROD_QM' was issued.
+ACTION:
+None.
+----- amqxprma.c : 2739 -------------------------------------------------------
+01/19/24 17:32:52 - Process(119.1) User(mqm) Program(strmqm)
+                    Host(2812469d4cdd) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-19T17:32:52.579Z)
+                    CommentInsert1(strmqm)
+                    CommentInsert2(strmqm -x ADLPH_PROD_QM)
+                   
+AMQ6206I: Command strmqm was issued.
+
+EXPLANATION:
+Control command 'strmqm -x ADLPH_PROD_QM' was issued.
+ACTION:
+None.
+----- amqxprma.c : 2739 -------------------------------------------------------
+01/23/24 19:17:30 - Process(133.1) User(mqm) Program(strmqm)
+                    Host(88b2aa02845d) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-23T19:17:30.038Z)
+                    CommentInsert1(strmqm)
+                    CommentInsert2(strmqm -x ADLPH_PROD_QM)
+                   
+AMQ6206I: Command strmqm was issued.
+
+EXPLANATION:
+Control command 'strmqm -x ADLPH_PROD_QM' was issued.
+ACTION:
+None.
+----- amqxprma.c : 2739 -------------------------------------------------------
+01/24/24 10:00:37 - Process(131.1) User(mqm) Program(strmqm)
+                    Host(07a12382084e) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-24T10:00:37.249Z)
+                    CommentInsert1(strmqm)
+                    CommentInsert2(strmqm -x ADLPH_PROD_QM)
+                   
+AMQ6206I: Command strmqm was issued.
+
+EXPLANATION:
+Control command 'strmqm -x ADLPH_PROD_QM' was issued.
+ACTION:
+None.
+----- amqxprma.c : 2739 -------------------------------------------------------
+01/24/24 20:55:43 - Process(121.1) User(mqm) Program(strmqm)
+                    Host(b8938c770ced) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-24T20:55:43.946Z)
+                    CommentInsert1(strmqm)
+                    CommentInsert2(strmqm -x ADLPH_PROD_QM)
+                   
+AMQ6206I: Command strmqm was issued.
+
+EXPLANATION:
+Control command 'strmqm -x ADLPH_PROD_QM' was issued.
+ACTION:
+None.
+----- amqxprma.c : 2739 -------------------------------------------------------
+01/25/24 14:26:39 - Process(277.191) User(mqm) Program(amqzlaa0)
+                    Host(b8938c770ced) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-25T14:26:39.101Z)
+                    RemoteHost(192.168.1.24)
+                    ArithInsert1(1073766681)
+                    CommentInsert1(Rc=28 from            write)
+                    CommentInsert2(/mnt/mqm/data/errors/AMQ277.0.FDC)
+                    CommentInsert3(AD031001)
+                   
+AMQ6119S: An internal IBM MQ error has occurred (Rc=28 from            write)
+
+EXPLANATION:
+MQ detected an unexpected error when calling the operating system. The MQ error
+recording routine has been called. An FFST containing diagnostic data has been
+written to '/mnt/mqm/data/errors/AMQ277.0.FDC' with probe 'AD031001'.
+ACTION:
+Use the standard facilities supplied with your system to record the problem
+identifier and to save any generated output files. Use either the MQ Support
+site: https://www.ibm.com/support/home/, or IBM Support Assistant (ISA):
+https://www.ibm.com/support/home/product/C100515X13178X21/other_software/ibm_support_assistant,
+to see whether a solution is already available.  If you are unable to find a
+match, contact your IBM support center.  Do not discard these files until the
+problem has been resolved.
+----- amqxfdcx.c : 1071 -------------------------------------------------------
+01/25/24 14:26:39 - Process(277.191) User(mqm) Program(amqzlaa0)
+                    Host(b8938c770ced) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-25T14:26:39.104Z)
+                    RemoteHost(192.168.1.24)
+                    ArithInsert1(277)
+                    CommentInsert1(ADLPH_PROD_QM)
+                    CommentInsert2(/mnt/mqm/data/errors/AMQ277.0.FDC)
+                    CommentInsert3(AD031001)
+                   
+AMQ6184W: An internal IBM MQ error has occurred on queue manager ADLPH_PROD_QM.
+
+EXPLANATION:
+An error has been detected, and the IBM MQ error recording routine has been
+called. The failing process is process 277. An FFST containing diagnostic data
+has been written to '/mnt/mqm/data/errors/AMQ277.0.FDC' with probe 'AD031001'.
+ACTION:
+Use the standard facilities supplied with your system to record the problem
+identifier and to save any generated output files. Use either the MQ Support
+site: https://www.ibm.com/support/home/, or IBM Support Assistant (ISA):
+https://www.ibm.com/support/home/product/C100515X13178X21/other_software/ibm_support_assistant,
+to see whether a solution is already available.  If you are unable to find a
+match, contact your IBM support center.  Do not discard these files until the
+problem has been resolved.
+----- amqxfdcx.c : 1116 -------------------------------------------------------
+01/25/24 14:26:40 - Process(277.191) User(mqm) Program(amqzlaa0)
+                    Host(b8938c770ced) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-25T14:26:40.182Z)
+                    RemoteHost(192.168.1.24)
+                    ArithInsert1(1073766681)
+                    CommentInsert1(Rc=28 from            write)
+                    CommentInsert2(/mnt/mqm/data/errors/AMQ277.0.FDC)
+                    CommentInsert3(AD031001)
+                01/25/24 16:13:37 - Process(136.1) User(mqm) Program(strmqm)
+                    Host(b8938c770ced) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-01-25T16:13:37.031Z)
+                    CommentInsert1(strmqm)
+                    CommentInsert2(strmqm -x ADLPH_PROD_QM)
+                   
+AMQ6206I: Command strmqm was issued.
+
+EXPLANATION:
+Control command 'strmqm -x ADLPH_PROD_QM' was issued.
+ACTION:
+None.
+----- amqxprma.c : 2739 -------------------------------------------------------
+03/20/24 08:22:11 - Process(124.1) User(mqm) Program(strmqm)
+                    Host(b8938c770ced) Installation(Installation1)
+                    VRMF(9.2.4.0)
+                    Time(2024-03-20T08:22:11.365Z)
+                    CommentInsert1(strmqm)
+                    CommentInsert2(strmqm -x ADLPH_PROD_QM)
+                   
+AMQ6206I: Command strmqm was issued.
+
+EXPLANATION:
+Control command 'strmqm -x ADLPH_PROD_QM' was issued.
+ACTION:
+None.
+----- amqxprma.c : 2739 -------------------------------------------------------
